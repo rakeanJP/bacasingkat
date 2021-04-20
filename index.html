@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body style="scroll-behavior: smooth;">
+    <!-- navbar -->
+    <nav role="navigation" class="flex justify-between  items-center 
+        h-16 bg-gradient-to-r from-purple-700 
+        to-purple-800 text-white relative sticky top-0 z-40">
+        <!-- <nav role="navigation" class="flex justify-between  items-center h-16 "> -->
+        <a href="index.html" class="pl-6 font-bold">BacaSingkat</a>
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </div>
+        <div class="hidden md:block " id="menu">
+            <a href="#banner" class="p-4 ">Home</a>
+            <a href="index.html" class="p-4">Kategori</a>
+            <a href="index.html" class="p-4">Tentang Kami</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="banner">
+        <div class="w-full h-banner bg-center flex items-center" style="background-image: url('./images/home.jpeg')">
+            <div class=" font-bold ml-10">
+                <h1 class="lg:text-7xl sm:text-6xl  text-5xl mb-1 text-white">
+                    Mengapa Kita Harus
+                </h1>
+                <h1 class="lg:text-7xl sm:text-6xl mb-2 text-5xl mr-9 text-white">
+                    Membaca sejarah?
+                </h1>
+                <a href="#pengertian" class="text-yellow-500 lg:text-4xl sm:text-4xl flex 
+                text-3xl center transform hover:scale-110 duration-300">
+                    selengkapnya
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div data-aos="fade-down" class="text-center grid justify-items-center mt-20">
+        <p class="font-bold text-lg sm:text-2xl pb-2 border-b-2 border-purple-500 mb-12">Koleksi Unggulan</p>
+    </div>
+    <!-- card -->
+    <div class=" flex flex-wrap">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mb-8">
+            <div class="md:flex">
+                <div class="md:flex-shrink-0">
+                    <img class="h-48 w-full object-cover md:w-48" src="./images/borobudur.jpeg"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="p-8">
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Sejarah Candi Borobudur</a>
+                    <p class="mt-2 text-gray-500">Candi Borobudur termasuk salah satu candi tertua di Indonesia, Kids dan dibangun pada saat pemerintahan Dinasti Syailendra, pada abad ke-8 dan ke-9 Masehi. Candi Borobudur menjadi peninggalan kuno terbesar di dunia.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mt-3"><a
+                            href="">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mb-8">
+            <div class="md:flex">
+                <div class="md:flex-shrink-0">
+                    <img class="h-48 w-full object-cover md:w-48" src="./images/borobudur.jpeg"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="p-8">
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Sejarah Candi Borobudur</a>
+                    <p class="mt-2 text-gray-500">Candi Borobudur termasuk salah satu candi tertua di Indonesia, Kids dan dibangun pada saat pemerintahan Dinasti Syailendra, pada abad ke-8 dan ke-9 Masehi. Candi Borobudur menjadi peninggalan kuno terbesar di dunia.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mt-3"><a
+                            href="">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
+            <div class="md:flex">
+                <div class="md:flex-shrink-0">
+                    <img class="h-48 w-full object-cover md:w-48" src="./images/borobudur.jpeg"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="p-8">
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Sejarah Candi Borobudur</a>
+                    <p class="mt-2 text-gray-500">Candi Borobudur termasuk salah satu candi tertua di Indonesia, Kids dan dibangun pada saat pemerintahan Dinasti Syailendra, pada abad ke-8 dan ke-9 Masehi. Candi Borobudur menjadi peninggalan kuno terbesar di dunia.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mt-3"><a
+                            href="">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mb-8">
+            <div class="md:flex">
+                <div class="md:flex-shrink-0">
+                    <img class="h-48 w-full object-cover md:w-48" src="./images/borobudur.jpeg"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="p-8">
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Sejarah Candi Borobudur</a>
+                    <p class="mt-2 text-gray-500">Candi Borobudur termasuk salah satu candi tertua di Indonesia, Kids dan dibangun pada saat pemerintahan Dinasti Syailendra, pada abad ke-8 dan ke-9 Masehi. Candi Borobudur menjadi peninggalan kuno terbesar di dunia.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mt-3"><a
+                            href="">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="pengertian">
+        <!-- judul -->
+        <div data-aos="fade-down" class="text-center grid justify-items-center mt-20 mb-8">
+            <p class="font-bold text-lg sm:text-2xl pb-2 border-b-2 border-purple-500 mb-12">Apa itu Sejarah?</p>
+        </div>
+        <div class="text-justify">
+            <p class="text-lg sm:text-2xl m-5">Secara singkat sejarah dapat diartikan sebagai kejadian-kejadian atau
+                peristiwa
+                pada masa lampau yang terkait dengan kehidupan manusia. Sedangkan ilmu sejarah adalah ilmu yang
+                mempelajari tentang kejadian-kejadian.
+                <br>
+                <br>
+                Kata “sejarah” berasal dari bahasa Arab “sajaratun” yang berarti pohon.
+                Hal itu karena pada awalnya kata sejarah digunakan untuk menyebut ilmu yang mempelajari asal usul
+                keturunan (genealogi) seseorang.
+                Akan tetapi ketika obyek perhatiannya berkembang menjadi asal usul sebuah peristiwa, maka ilmu sejarah
+                berubah menjadi ilmu yang mempelajari asal usul peristiwa yang pernah terjadi.
+            </p>
+
+        </div>
+    </section>
+    <p class=" sm:text-3xl mt-20 text-center font-mono">
+        “Orang boleh pandai setinggi langit, tapi selama ia tidak menulis,
+        <br> ia akan hilang di dalam masyarakat dan dari sejarah.
+        Menulis adalah bekerja untuk keabadian.”
+    </p>
+    <p class="text-center font-serif sm:text-2xl mb-24 mt-5">-Pramoedya Ananta Toer-</p>
+
+    <div class="container mx-auto px-6">
+        <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="sm:text-1xl text-blue-700 font-bold mb-2">
+                    ©Copyright Rakean 2021
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
